@@ -6,11 +6,11 @@ A fast, lightweight, and accurate real-time facial recognition and enrollment ap
 
 ## Features
 
-- **Mode 1: Live Recognition (`[1]`)**:
+- **Mode 1: Live Recognition :
   - Real-time webcam face detection with landmark tracking (eyes, nose, mouth).
   - High-precision matching via Cosine Similarity against enrolled identities.
   - Custom HUD bounding boxes: **Green** with name and confidence percentage for recognized faces, **Red** with similarity score for unknown faces.
-- **Mode 2: Face Enrollment & Data Storage (`[2]`)**:
+- **Mode 2: Face Enrollment & Data Storage :
   - Centered alignment target box for optimal capture.
   - Press `[SPACE]` to trigger registration.
   - Native popup dialog to enter the person's name.
