@@ -6,21 +6,21 @@ A fast, lightweight, and accurate real-time facial recognition and enrollment ap
 
 ## Features
 
-- **Mode 1: Live Recognition :
+- Mode 1: Live Recognition :
   - Real-time webcam face detection with landmark tracking (eyes, nose, mouth).
   - High-precision matching via Cosine Similarity against enrolled identities.
   - Custom HUD bounding boxes: **Green** with name and confidence percentage for recognized faces, **Red** with similarity score for unknown faces.
-- **Mode 2: Face Enrollment & Data Storage :
+- Mode 2: Face Enrollment & Data Storage :
   - Centered alignment target box for optimal capture.
   - Press `[SPACE]` to trigger registration.
   - Native popup dialog to enter the person's name.
   - Automatically captures 6 multi-angle face samples with visual progress bar and audio beeps.
   - Stores 128-D feature vectors in `data/faces_db.pkl` and saves cropped face previews in `data/registered_faces/<Name>/`.
-- **Database Management**:
+- Database Management:
   - `[L]`: List all registered identities with sample counts and registration timestamps.
   - `[D]`: Delete any registered person.
   - `[+]` / `[-]`: Adjust Cosine Similarity threshold on the fly.
-- **Audio Feedback**:
+-  Audio Feedback:
   - Subtle sound cues on sample capture, successful enrollment, and warnings.
 
 ---
